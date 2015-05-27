@@ -1,0 +1,7 @@
+RewriteEngine on
+
+# If directory or file exists - use it direct path
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# For the empty path components - run default page
+RewriteRule . index.html

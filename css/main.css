@@ -1,0 +1,91 @@
+.facade-picture{
+    position:relative;
+    text-align:center;
+}
+
+/* FIXME: размеры выставлять не надо.. вместо этого надо зациклить. */
+.facade-picture img{
+    height:480px;
+    width:100%;
+}
+
+.facade-picture__label-box{
+    position:absolute;
+
+    /* TODO: позиционировать по вертикали по центру автоматически ?! */
+    left:120px;
+    top:120px;
+}
+
+.board{
+    background:rgba(255, 255, 255, 0.4);
+    color:black;
+
+    font-family:Century Gothic, Raleway, Lucida Console, Corbel, Consolas, sans-serif;
+
+    padding:30px 50px 45px 50px;
+
+    width:550px;
+}
+
+.board__title{
+    font-size:60px;
+    font-weight:normal;
+
+    margin:0;
+
+    text-transform:lowercase;
+}
+
+.board__text{
+    font-size:16px;
+    margin:30px 0 0 0;
+}
+
+.contacts{
+    display:table;
+    width:100%;
+}
+
+.contacts__column{
+    display:table-cell;
+
+    width:50%;
+}
+
+.contacts__column_left{
+    border-right:1px solid #c2c2c2;
+}
+
+.contacts__description{
+    border-bottom:4px solid;
+    padding-bottom:5px;
+    width:340px;
+}
+
+.contacts__description.blue{
+    border-color:#63b3cd;
+}
+
+.contacts__description.green{
+    border-color:#14e29e;
+}
+
+.pricelist__download{
+    background:#dd0000;
+    color:white;
+
+    display:inline-block;
+
+    float:right;
+
+    margin-top:30px;
+    padding:10px;
+
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.pricelist__download:hover{
+    background:#ffae00;
+}
