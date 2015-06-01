@@ -3,9 +3,10 @@
     text-align:center;
 }
 
-/* FIXME: размеры выставлять не надо.. вместо этого надо зациклить. */
-.facade-picture img{
-    height:480px;
+.facade-picture__image{
+    background:url(/img/facade-picture.jpg) center center repeat-x;
+
+    height:484px;
     width:100%;
 }
 
