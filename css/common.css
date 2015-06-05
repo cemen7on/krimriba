@@ -62,20 +62,21 @@ body > .body{
 }
 
 .content{
-    padding-bottom:75px;
+    padding-bottom:90px;
 }
 
 .footer{
     background:#f6f6f6;
     color:#7e7e7e;
-    height:15px;
-    margin-top:-75px;
-    padding:30px;
+    height:50px;
+    margin-top:-90px;
+    padding:20px;
     vertical-align:middle;
 }
 
 .footer__left{
     float:left;
+    margin-top:18px;
 }
 
 .footer__right{
@@ -83,13 +84,13 @@ body > .body{
 }
 
 .partner-link{
-    color:#85b2cf;
-    font-weight:bold;
+    display:block;
     text-decoration:none;
 }
 
-.partner-link:hover{
-    text-decoration:underline;
+.partner-link__logo{
+    height:50px;
+    width:50px;
 }
 
 .content__section_bordered{
