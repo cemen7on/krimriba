@@ -22,25 +22,23 @@
     background:rgba(255, 255, 255, 0.4);
     color:black;
 
-    font-family:Century Gothic, Raleway, Lucida Console, Corbel, Consolas, sans-serif;
-
     padding:30px 50px 45px 50px;
 
     width:550px;
 }
 
 .board__title{
+    font-family:Century Gothic, Trebuchet MS, Trebuchet, Malgun Gothic, Candara, Raleway, Lucida Console, Corbel, Consolas, sans-serif;
     font-size:60px;
     font-weight:normal;
 
     margin:0;
-
-    text-transform:lowercase;
 }
 
 .board__text{
-    font-size:16px;
+    font-size:20px;
     margin:30px 0 0 0;
+    text-decoration:underline;
 }
 
 .contacts{
@@ -89,4 +87,18 @@
 
 .pricelist__download:hover{
     background:#ffae00;
+}
+
+.mail-link{
+    color:#63b3cd;
+    text-decoration:none;
+}
+
+.key-value-block{
+    margin:2px 0;
+}
+
+.key-value-block__key{
+    display:inline-block;
+    width:80px;
 }

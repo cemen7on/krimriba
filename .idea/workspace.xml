@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f5d2b98-e415-4446-9f4c-12461d86b1c6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/assortment.css" afterPath="$PROJECT_DIR$/css/assortment.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assortment.html" afterPath="$PROJECT_DIR$/assortment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="krimriba.iws" />
@@ -31,25 +32,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="28" selection-start="5092" selection-end="5296" vertical-scroll-proportion="-13.269231" vertical-offset="1627" max-vertical-offset="2244">
+            <state line="94" column="56" selection-start="4375" selection-end="4390" vertical-scroll-proportion="-15.230769" vertical-offset="1202" max-vertical-offset="2380">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assortment.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assortment.html">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="28" selection-start="7167" selection-end="7167" vertical-scroll-proportion="-6.076923" vertical-offset="2188" max-vertical-offset="2856">
+            <state line="45" column="15" selection-start="824" selection-end="824" vertical-scroll-proportion="0.5862069" vertical-offset="408" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="15" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.8095238" vertical-offset="816" max-vertical-offset="2465">
+            <state line="5" column="39" selection-start="48" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assortment.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/assortment.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
@@ -73,11 +83,11 @@
         <option value="$PROJECT_DIR$/css/assortment.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/jquery.zoom.js" />
-        <option value="$PROJECT_DIR$/css/assortment.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assortment.html" />
+        <option value="$PROJECT_DIR$/css/assortment.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/common.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -114,7 +124,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,6 +158,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,11 +201,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -215,6 +225,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="28" selection-start="5092" selection-end="5296" vertical-scroll-proportion="0.0" vertical-offset="1627" max-vertical-offset="2244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assortment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="28" selection-start="7167" selection-end="7167" vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="15" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="69" selection-start="4224" selection-end="4224" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2210">
@@ -368,35 +399,37 @@
         <state line="131" column="25" selection-start="3252" selection-end="3252" vertical-scroll-proportion="-0.11409396" vertical-offset="2227" max-vertical-offset="4386" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/assortment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="26" selection-start="444" selection-end="444" vertical-scroll-proportion="0.47454843" vertical-offset="238" max-vertical-offset="1479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="223" selection-end="223" vertical-scroll-proportion="0.33497536" vertical-offset="0" max-vertical-offset="1649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assortment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="28" selection-start="7167" selection-end="7167" vertical-scroll-proportion="-6.076923" vertical-offset="2188" max-vertical-offset="2856">
+        <state line="30" column="21" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-1.8421955" vertical-offset="1584" max-vertical-offset="2856">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="28" selection-start="5092" selection-end="5296" vertical-scroll-proportion="-13.269231" vertical-offset="1627" max-vertical-offset="2244">
+        <state line="94" column="56" selection-start="4375" selection-end="4390" vertical-scroll-proportion="-15.230769" vertical-offset="1202" max-vertical-offset="2380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="15" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.8095238" vertical-offset="816" max-vertical-offset="2465">
+        <state line="5" column="39" selection-start="48" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/assortment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="15" selection-start="824" selection-end="824" vertical-scroll-proportion="0.5862069" vertical-offset="408" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
