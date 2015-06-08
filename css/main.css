@@ -102,3 +102,24 @@
     display:inline-block;
     width:80px;
 }
+
+.partner-box{
+    text-align:left;
+}
+
+.partner-box__description{
+    display:table-cell;
+    padding-right:40px;
+    vertical-align:middle;
+}
+
+.partner-box__link{
+    display:table-cell;
+    text-decoration:none;
+    vertical-align:middle;
+}
+
+.partner-link__logo{
+    width:200px;
+    height:186px;
+}
