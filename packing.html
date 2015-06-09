@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>ООО "Крымская Рыболовная Компания" - Наша Упаковка</title>
+
+        <link rel="stylesheet" href="/css/common.css" />
+        <link rel="stylesheet" href="/css/assortment.css" />
+
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.zoom.js"></script>
+    </head>
+
+    <body>
+        <div class="body">
+            <ul class="top-nav top-nav_bordered">
+                <li class="top-nav__item">
+                    <a href="index.html" class="nav-link">Главная</a>
+                </li>
+
+                <li class="top-nav__item">
+                    <a href="assortment.html" class="nav-link">Наша продукция</a>
+                </li>
+
+                <li class="top-nav__item">
+                    <a href="packing.html" class="nav-link nav-link_active">Наша Упаковка</a>
+                </li>
+
+                <li class="top-nav__item">
+                    <a href="index.html#pricelist" class="nav-link">Прайс-лист</a>
+                </li>
+
+                <li class="top-nav__item">
+                    <a href="index.html#contacts" class="nav-link">Контакты</a>
+                </li>
+
+                <li class="top-nav__item">
+                    <a href="index.html#partners" class="nav-link">Партнеры</a>
+                </li>
+            </ul>
+
+            <div class="content">
+                <div class="content__section">
+                    <div class="limiter">
+                        <div class="limiter__section">
+                            <div class="description">
+                                <h1 class="description__title">Наша упаковка</h1>
+
+                                <p class="description__text description__text_assortment">
+                                    Придумать слоган для упаковки
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__section content__section_bordered">
+                    <div class="limiter">
+                        <div class="limiter__section">
+                            <div class="assortment-box clearfix">
+                                <div class="assortment-box__container">
+                                    <div class="assortment-item">
+                                        <div class="assortment-item__thumb" data-url="img/packing/big/3.jpg">
+                                            <img class="assortment-thumb__image" src="img/packing/small/3.jpg" />
+                                            <div class="assortment-thumb__helper js-helper"></div>
+                                        </div>
+
+                                        <h1 class="assortment-item__title">Упаковка #3</h1>
+
+                                        <p class="assortment-item__text">
+                                            Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды,
+                                            чтобы добавить свой текст и настроить шрифт. редактировать текст! Это текст. Нажмите один.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="assortment-box__container">
+                                    <div class="assortment-item">
+                                        <div class="assortment-item__thumb" data-url="img/packing/big/4.jpg">
+                                            <img class="assortment-thumb__image" src="img/packing/small/4.jpg" />
+                                            <div class="assortment-thumb__helper js-helper"></div>
+                                        </div>
+
+                                        <h1 class="assortment-item__title">Упаковка #4</h1>
+
+                                        <p class="assortment-item__text">
+                                            Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды,
+                                            чтобы добавить свой текст и настроить шрифт. редактировать текст! Это текст. Нажмите один.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="assortment-box__container">
+                                    <div class="assortment-item">
+                                        <div class="assortment-item__thumb" data-url="img/packing/big/5.jpg">
+                                            <img class="assortment-thumb__image" src="img/packing/small/5.jpg" />
+                                            <div class="assortment-thumb__helper js-helper"></div>
+                                        </div>
+
+                                        <h1 class="assortment-item__title">Упаковка #5</h1>
+
+                                        <p class="assortment-item__text">
+                                            Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды,
+                                            чтобы добавить свой текст и настроить шрифт. редактировать текст! Это текст. Нажмите один.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="limiter">
+                <div class="limiter__section clearfix">
+                    <span id="footerYear">"2___</span>
+
+                    ООО "Крымская Рыболовная Компания"
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript">
+            $('#footerYear').text(new Date().getFullYear());
+
+            (function enableZoom(){
+                var thumbsContainers=document.querySelectorAll('.assortment-item__thumb'),
+                        $thumbContainer;
+
+                for(var i=0, end=thumbsContainers.length; i<end; i++){
+                    $thumbContainer=$(thumbsContainers[i]);
+
+                    $thumbContainer.zoom({
+                        url:$thumbContainer.data('url'),
+                        helper:$thumbContainer.children('.js-helper')
+                    });
+                }
+            }());
+        </script>
+    </body>
+</html>
