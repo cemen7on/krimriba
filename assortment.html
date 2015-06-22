@@ -66,7 +66,6 @@
                                     <div class="assortment-item">
                                         <div class="assortment-item__thumb" data-url="img/assortment/big/1.jpg">
                                             <img class="assortment-thumb__image" src="img/assortment/small/1.jpg" />
-                                            <div class="assortment-thumb__helper js-helper"></div>
                                         </div>
 
                                         <h1 class="assortment-item__title">Тюлька х/к</h1>
@@ -77,7 +76,6 @@
                                     <div class="assortment-item">
                                         <div class="assortment-item__thumb" data-url="img/assortment/big/2.jpg">
                                             <img class="assortment-thumb__image" src="img/assortment/small/2.jpg" />
-                                            <div class="assortment-thumb__helper js-helper"></div>
                                         </div>
 
                                         <h1 class="assortment-item__title">Бычок х/к</h1>
@@ -88,7 +86,6 @@
                                     <div class="assortment-item">
                                         <div class="assortment-item__thumb" data-url="img/assortment/big/3.jpg">
                                             <img class="assortment-thumb__image" src="img/assortment/small/3.jpg" />
-                                            <div class="assortment-thumb__helper js-helper"></div>
                                         </div>
 
                                         <h1 class="assortment-item__title">Хамса соленая</h1>
@@ -99,7 +96,6 @@
                                     <div class="assortment-item">
                                         <div class="assortment-item__thumb" data-url="img/assortment/big/4.jpg">
                                             <img class="assortment-thumb__image" src="img/assortment/small/4.jpg" />
-                                            <div class="assortment-thumb__helper js-helper"></div>
                                         </div>
 
                                         <h1 class="assortment-item__title">Тюлька соленая</h1>
@@ -110,7 +106,6 @@
                                     <div class="assortment-item">
                                         <div class="assortment-item__thumb" data-url="img/assortment/big/5.jpg">
                                             <img class="assortment-thumb__image" src="img/assortment/small/5.jpg" />
-                                            <div class="assortment-thumb__helper js-helper"></div>
                                         </div>
 
                                         <h1 class="assortment-item__title">Хамса с/м</h1>
@@ -121,7 +116,6 @@
                                     <div class="assortment-item">
                                         <div class="assortment-item__thumb" data-url="img/assortment/big/6.jpg">
                                             <img class="assortment-thumb__image" src="img/assortment/small/6.jpg" />
-                                            <div class="assortment-thumb__helper js-helper"></div>
                                         </div>
 
                                         <h1 class="assortment-item__title">Килька с/м</h1>
@@ -132,7 +126,6 @@
                                     <div class="assortment-item">
                                         <div class="assortment-item__thumb" data-url="img/assortment/big/7.jpg">
                                             <img class="assortment-thumb__image" src="img/assortment/small/7.jpg" />
-                                            <div class="assortment-thumb__helper js-helper"></div>
                                         </div>
 
                                         <h1 class="assortment-item__title">Луфарь с/м</h1>
@@ -166,8 +159,7 @@
                     $thumbContainer=$(thumbsContainers[i]);
 
                     $thumbContainer.zoom({
-                        url:$thumbContainer.data('url'),
-                        helper:$thumbContainer.children('.js-helper')
+                        url:$thumbContainer.data('url')
                     });
                 }
             }());
