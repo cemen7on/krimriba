@@ -42,6 +42,14 @@
     text-transform:uppercase;
 }
 
+.description__text_facade{
+    font-size:16px;
+}
+
+.contacts-description__centric{
+    text-align:center;
+}
+
 .contacts{
     display:table;
     padding:20px;
@@ -62,8 +70,8 @@
 
 .contacts__title{
     border-bottom:4px solid;
+    display:inline-block;
     padding-bottom:5px;
-    width:340px;
 }
 
 .contacts__title.blue{
